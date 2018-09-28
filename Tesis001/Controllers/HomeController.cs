@@ -26,5 +26,12 @@ namespace Tesis001.Controllers
 
             return View();
         }
+
+        public ActionResult CitaMedicaListar()
+        {
+            ViewBag.Message = "Listar Citas Médicas.";
+
+            return View();
+        }
     }
 }
