@@ -194,10 +194,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\CitaMedicaListar.cshtml" />
     <Content Include="Views\Home\SignosVitales.cshtml" />
-    <Content Include="Views\Home\DiagnosticoSOAP.cshtml" />
-    <Content Include="Views\Home\ResultadoExamenMedico.cshtml" />
-    <Content Include="Views\Home\ProformaExamenMedico.cshtml" />
-    <Content Include="Views\Home\CertificadoMedico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -41,32 +41,5 @@ namespace Tesis001.Controllers
             return View();
         }
 
-        public ActionResult DiagnosticoSOAP()
-        {
-            ViewBag.Message = "Diagnostico SOAP";
-
-            return View();
-        }
-                
-        public ActionResult ResultadoExamenMedico()
-        {
-            ViewBag.Message = "Resultados examenes";
-
-            return View();
-        }
-
-        public ActionResult ProformaExamenMedico()
-        {
-            ViewBag.Message = "Proforma examenes";
-
-            return View();
-        }
-                
-        public ActionResult CertificadoMedico()
-        {
-            ViewBag.Message = "Certificado médico";
-
-            return View();
-        }
     }
 }
