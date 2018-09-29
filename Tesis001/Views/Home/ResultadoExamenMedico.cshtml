@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "ResultadoExamenMedico";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Resultados de Examen M&eacute;dico</h2>
+
+<div>
+    <label>Apellidos y Nombres</label>
+    <input type="text" />
+</div>
+<div>
+    <label>N.ro de Historia Cl&iacute;nica</label>
+    <input type="text" />
+</div>
+
+<div class="table-responsive">
+    <label>Examen 1</label>
+    <table class="table">
+        <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Resultado</th>
+        </tr>
+        <tr>
+            <td scope="col">2018-09-01</td>
+            <td scope="col">Negativo</td>
+        </tr>
+        <tr>
+            <td scope="col">2018-01-21</td>
+            <td scope="col">Negativo</td>
+        </tr>
+        <tr>
+            <td scope="col">2017-06-21</td>
+            <td scope="col">Positivo</td>
+        </tr>
+    </table>    
+</div>
+<div class="table-responsive">
+    <label>Examen 2</label>
+    <table class="table">
+        <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Resultado</th>
+        </tr>
+        <tr>
+            <td scope="col">2018-09-01</td>
+            <td scope="col">150mg</td>
+        </tr>
+        <tr>
+            <td scope="col">2018-01-21</td>
+            <td scope="col">138mg</td>
+        </tr>
+        <tr>
+            <td scope="col">2017-06-21</td>
+            <td scope="col">147mg</td>
+        </tr>
+    </table>
+</div>
+<button>Regresar</button>
