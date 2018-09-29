@@ -48,54 +48,5 @@ namespace Tesis001.Controllers
             return View();
         }
 
-        public ActionResult Temperatura()
-        {
-            ViewBag.Message = "Temperatura";
-
-            return View();
-        }
-
-        public ActionResult PresionArterial()
-        {
-            ViewBag.Message = "Presión Arterial";
-
-            return View();
-        }
-
-        public ActionResult FrecuenciaCardiaca()
-        {
-            ViewBag.Message = "FrecuenciaCardiaca";
-
-            return View();
-        }
-
-        public ActionResult FrecuenciaRespiratoria()
-        {
-            ViewBag.Message = "FrecuenciaRespiratoria";
-
-            return View();
-        }
-
-        public ActionResult Peso()
-        {
-            ViewBag.Message = "Peso";
-
-            return View();
-        }
-
-        public ActionResult Talla()
-        {
-            ViewBag.Message = "Talla";
-
-            return View();
-        }
-
-        public ActionResult PedidoExamen()
-        {
-            ViewBag.Message = "Pedido Examen";
-
-            return View();
-        }
-
     }
 }

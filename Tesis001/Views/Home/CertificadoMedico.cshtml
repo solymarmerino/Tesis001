@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "CertificadoMedico";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Certificado Médico</h2>
+
+<div>
+<label>Fecha de Nacimiento</label>
+<input type="date" />
+</div>
+
+<br />
+<p>
+    CERTIFICO QUE EL (LA) PACIENTE ______________________________  DE ___ AÑOS DE EDAD, CON HISTORIA CLINICA Nº __________ Y CÉDULA DE CIUDADANIA Nº ______________ FUE ATENDIDO (A) EN EL SERVICIO DE _______________ EL _________________________ POR PRESENTAR ________________________________________ CIE-10 _______ SE PRESCRIBE  ____ DIAS DE REPOSO DESDE EL _________________ HASTA EL _____________________
+</p>
+
+<br />
+<div>
+    <label>Médico</label>
+    <select>
+        <option value="Medioc1">Medioc1</option>
+        <option value="Medico2">Medico2</option>
+        <option value="medico3">medico3</option>
+    </select>
+</div>
+<button>Imprimir</button>
+<button>Regresar</button>
