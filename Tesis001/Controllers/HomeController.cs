@@ -41,5 +41,12 @@ namespace Tesis001.Controllers
             return View();
         }
 
+        public ActionResult HistoriaClinica()
+        {
+            ViewBag.Message = "Historia Clinica";
+
+            return View();
+        }
+
     }
 }
