@@ -195,6 +195,13 @@
     <Content Include="Views\Home\CitaMedicaListar.cshtml" />
     <Content Include="Views\Home\SignosVitales.cshtml" />
     <Content Include="Views\Home\HistoriaClinica.cshtml" />
+    <Content Include="Views\Home\Temperatura.cshtml" />
+    <Content Include="Views\Home\PresionArterial.cshtml" />
+    <Content Include="Views\Home\FrecuenciaCardiaca.cshtml" />
+    <Content Include="Views\Home\FrecuenciaRespiratoria.cshtml" />
+    <Content Include="Views\Home\Peso.cshtml" />
+    <Content Include="Views\Home\Talla.cshtml" />
+    <Content Include="Views\Home\PedidoExamen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
