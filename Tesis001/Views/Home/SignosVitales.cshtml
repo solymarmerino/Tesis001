@@ -1,7 +1,10 @@
-﻿@{
-    ViewBag.Title = "Nueva Historia Clinica";
+﻿
+@{
+    ViewBag.Title = "SignosVitales";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>@ViewBag.Title.</h2>
+
+<h2>SignosVitales</h2>
 
 <p><label>Nº Historia Clinica</label></p>
 <input />
@@ -57,4 +60,29 @@
 
 <p><label>Alergias</label></p>
 <input />
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Temperatura</th>
+            <th scope="col">Precion Arterial</th>
+            <th scope="col">FT</th>
+            <th scope="col">FC</th>
+            <th scope="col">Peso</th>
+            <th scope="col">Talla</th>
+        </tr>
+        <tr>
+            <td>99</td>
+            <td>99</td>
+            <td>99</td>
+            <td>99</td>
+            <td>99</td>
+            <td>99</td>
+            <td>99</td>
+        </tr>
+    </table>
+        <button>Guardar</button>
+
+</div>
 

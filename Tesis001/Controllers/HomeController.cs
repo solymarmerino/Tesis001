@@ -33,5 +33,13 @@ namespace Tesis001.Controllers
 
             return View();
         }
+
+        public ActionResult SignosVitales()
+        {
+            ViewBag.Message = "Signos Vitales";
+
+            return View();
+        }
+
     }
 }
