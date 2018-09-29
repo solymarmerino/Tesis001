@@ -126,7 +126,60 @@ namespace Tesis001.Controllers
             return View();
         }
 
+        public ActionResult PagosPersonal()
+        {
+            ViewBag.Message = "Pagos Personal";
 
+            return View();
+        }
 
+        public ActionResult Egreso()
+        {
+            ViewBag.Message = "Egreso";
+
+            return View();
+        }
+
+        public ActionResult Ingreso()
+        {
+            ViewBag.Message = "Ingreso";
+
+            return View();
+        }
+
+        public ActionResult InformeContable()
+        {
+            ViewBag.Message = "Informe Contable";
+
+            return View();
+        }
+
+        public ActionResult Inventario()
+        {
+            ViewBag.Message = "Inventario";
+
+            return View();
+        }
+
+        public ActionResult Facturacion()
+        {
+            ViewBag.Message = "Facturacion";
+
+            return View();
+        }
+
+        public ActionResult IngresoPersonal()
+        {
+            ViewBag.Message = "Ingreso Personal";
+
+            return View();
+        }
+
+        public ActionResult ListaPersonal()
+        {
+            ViewBag.Message = "Lista Personal";
+
+            return View();
+        }
     }
 }
