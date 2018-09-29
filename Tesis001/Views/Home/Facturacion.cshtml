@@ -4,5 +4,64 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Facturacion</h2>
+<h2>Factura</h2>
 
+<p><label>Numero Factura</label> </p>
+<input />
+
+<div class="row">
+    <div class="col-md-3">
+        <p><label>Nombre</label> </p>
+        <input />
+    </div>
+
+    <div class="col-md-3">
+        <p><label>Cedula</label></p>
+        <input />
+    </div>
+
+    <div class="col-md-3">
+        <p><label>Dirección</label></p>
+        <input />
+    </div>
+
+    <div class="col-md-3">
+        <p><label>Telefono</label></p>
+        <input />
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Detalle</th>
+            <th scope="col">Valor Unitario</th>
+            <th scope="col">Valor Total</th>
+        </tr>
+        <tr>
+            <td scope="col">JUAN DAVID MOLINA PEREZ</td>
+            <td scope="col">00001</td>
+            <td scope="col">1234567890</td>
+            <td scope="col">0000000</td>
+    </table>
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th scope="col">Subtotal</th>
+            <th scope="col">IVA 0%</th>
+            <th scope="col">IVA 12%</th>
+            <th scope="col">Total</th>
+        </tr>
+        <tr>
+            <td scope="col">000000</td>
+            <td scope="col">00001</td>
+            <td scope="col">1234567890</td>
+            <td scope="col">0000000</td>
+    </table>
+</div>
+
+<button>Enviar</button>
+<button>Anular</button>
