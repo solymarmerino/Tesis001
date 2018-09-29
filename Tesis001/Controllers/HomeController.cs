@@ -8,21 +8,21 @@ namespace Tesis001.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Login()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult IngresarCita()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Ingresar Cita";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult NuevaHistoriaClinica()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Nueva Historia Clinica";
 
             return View();
         }
