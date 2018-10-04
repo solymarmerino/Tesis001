@@ -181,5 +181,12 @@ namespace Tesis001.Controllers
 
             return View();
         }
+
+        public ActionResult BuscarPaciente()
+        {
+            ViewBag.Message = "Buscar Paciente";
+
+            return View();
+        }
     }
 }
